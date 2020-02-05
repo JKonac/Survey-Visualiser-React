@@ -1,0 +1,52 @@
+html, body{margin:0px; padding:0px; font-family: "Arial";}
+
+.main-layout {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px auto 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  background: black;
+  color: white;
+  height: 100px;
+  padding-left: 20%;
+  margin-bottom: 40px;
+}
+
+.content {
+  grid-column: 3 / 11;
+  grid-row: 1;
+}
+
+.infoText {
+  text-align: center;
+}
+
+.infoText > h1 {
+  padding-bottom: 60px;
+  padding-top: 25px;
+}
+
+.infoText > p {
+  padding-bottom: 75px;
+}
+
+.surveyList {
+  text-align: center;
+  justify-self: center;
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #a6ebcb;
+}
+
+.surveyButton {
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+}
